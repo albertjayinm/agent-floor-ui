@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Agent Floor concept B, Hood Window</title>
+  <path fill="#111" fill-rule="evenodd" d="M48 232 V128 A80 80 0 0 1 208 128 V232 Z M64 150 L128 113 L192 150 L128 187 Z"/>
+  <circle cx="106" cy="152" r="12" fill="#111"/>
+  <circle cx="150" cy="152" r="12" fill="#111"/>
+</svg>

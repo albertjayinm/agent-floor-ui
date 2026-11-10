@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/arch -arm64 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" "$@"

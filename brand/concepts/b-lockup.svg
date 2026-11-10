@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 256" width="980" height="256" role="img" aria-labelledby="title">
+  <title id="title">Agent Floor concept B lockup (exploration: live text)</title>
+  <g transform="translate(12 22) scale(0.83)">
+    <path fill="#111" fill-rule="evenodd" d="M44 224 V124 A84 84 0 0 1 212 124 V224 Z M80 224 V124 A48 48 0 0 1 176 124 V224 Z"/>
+    <circle cx="128" cy="184" r="26" fill="#111"/>
+  </g>
+  <text x="258" y="164" fill="#111" font-family="Space Grotesk, DM Sans, Helvetica Neue, Arial, sans-serif" font-size="112" font-weight="700" letter-spacing="-3">agent<tspan font-weight="400">floor</tspan></text>
+</svg>

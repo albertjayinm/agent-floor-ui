@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Agent Floor concept A, Floor Stack</title>
+  <g transform="translate(0 4)">
+  <circle cx="128" cy="40" r="26" fill="#111"/>
+  <path fill="#111" d="M40 130 L128 79.2 L216 130 L128 180.8 Z"/>
+  <path fill="#111" d="M40 156 L128 206.8 L216 156 V182 L128 232.8 L40 182 Z"/>
+  </g>
+</svg>

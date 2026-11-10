@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist-demo/
+.DS_Store
+*.tgz
+test-results/
+docs/media/.frames/

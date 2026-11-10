@@ -1,0 +1,38 @@
+{
+  "brand": "agent-floor-ui",
+  "tagline": "A living 3D office for your AI agents",
+  "brief": "An open-source UI template that shows AI agents as characters moving through an isometric Three.js office. It plugs into any agent stack in VS Code or Claude, so the mark has to feel spatial, playful, and crafted without falling back on robot heads, brains, or sparkles.",
+  "adjectives": ["spatial", "playful", "alive", "crafted", "pluggable"],
+  "criteria": "Success: reads as characters + floors, avoids AI clichés, works at 16 px and in one colour, matches the app's coral and ink palette.",
+  "industry": "software",
+  "nav": ["Docs", "Demo", "GitHub"],
+  "brand_color": "#E57958",
+  "greyscale": false,
+  "final": true,
+  "designer": "agent-floor-ui",
+  "round": 2,
+  "concepts": [
+    {
+      "name": "Floor Stack",
+      "symbol": "final/agent-floor-symbol.svg",
+      "lockup": "final/agent-floor-horizontal.svg",
+      "stacked": "final/agent-floor-stacked.svg",
+      "avatar": "final/agent-floor-symbol-app-icon.svg",
+      "symbol_on_tile": "final/agent-floor-symbol-white.svg",
+      "symbol_on_dark": "final/agent-floor-symbol-reversed.svg",
+      "lockup_on_dark": "final/agent-floor-horizontal-reversed.svg",
+      "tile_color": "#E57958",
+      "idea": "An agent standing on stacked isometric floors: the characters and the levels they work on, in one mark.",
+      "rationale": [
+        "Coral head = the agent; ink plates = the floors it moves between",
+        "Built on a 26-unit grid with true 30° isometric edges, the same projection as the app",
+        "A heavier small-size cut keeps the head and gap legible at 16 px"
+      ]
+    }
+  ],
+  "recommendation": "Floor Stack is the approved direction. Use the two-colour symbol by default, the small cut below 48 px, and the reversed lockup on dark surfaces.",
+  "next_steps": [
+    "Use the web icon set in the demo app and README",
+    "Run a trademark search before public launch"
+  ]
+}

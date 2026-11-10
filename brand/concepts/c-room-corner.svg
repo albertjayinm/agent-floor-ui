@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Agent Floor concept C, Room Corner</title>
+  <path fill="none" stroke="#111" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" d="M128 28 V120 M128 120 L48.3 166 M128 120 L207.7 166"/>
+  <circle cx="128" cy="202" r="22" fill="#111"/>
+</svg>
