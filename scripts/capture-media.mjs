@@ -67,15 +67,17 @@ for (const [name, appearance] of [['theme-midnight-voxel', { theme: 'midnight', 
   await context.close();
 }
 
-const frameCount = Number(process.env.AF_GIF_FRAMES ?? 140);
+// 20 fps for 12 s; captured at 2x so make-gif.py downsamples (supersampled anti-aliasing) instead of upscaling.
+const frameCount = Number(process.env.AF_GIF_FRAMES ?? 240);
+const frameMs = Number(process.env.AF_GIF_FRAME_MS ?? 50);
 if (frameCount > 0) {
-  const { context, page } = await open({ width: 1280, height: 800 }, { scale: 1 });
+  const { context, page } = await open({ width: 1280, height: 800 }, { scale: 2 });
   await press(page.getByRole('button', { name: /Nova Frontend engineer/ }));
   await page.clock.runFor(1300);
   await rm(framesDir, { recursive: true, force: true });
   await mkdir(framesDir, { recursive: true });
   for (let frame = 0; frame < frameCount; frame++) {
-    await page.clock.runFor(83);
+    await page.clock.runFor(frameMs);
     await shootStage(page, `${framesDir}${String(frame).padStart(3, '0')}.png`);
   }
   await context.close();

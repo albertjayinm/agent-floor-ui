@@ -200,7 +200,7 @@ pip install pillow                 # once, in any Python 3 environment
 python3 scripts/make-gif.py        # assembles docs/media/demo.gif
 ```
 
-The capture uses a fake browser clock, so every frame advances exactly 83 ms regardless of WebGL speed.
+The capture uses a fake browser clock, so every frame advances exactly 50 ms (20 fps) regardless of WebGL speed. Frames are captured at 2x and downsampled to a 960 px GIF with a shared 256-colour palette.
 
 Browser tests use installed Google Chrome on Apple Silicon macOS. Other systems: `npx playwright install chromium` before running them. Screenshots are written to `test-results/`. The demo build lives in `dist-demo/`; the importable package lives in `dist/`. Three.js contributes most of the initial bundle size.
 
